@@ -1,33 +1,20 @@
 package sec01;
-
-class keyValue<k, v>{
-    private k key;
-    private v value;
-
-    public keyValue(k key, v value){
-        this.key = key;
-        this.value = value;
-    }
-
-    public v getValue(k key){
-        if(key == this.key){
-            return this.value;
-        }
-        return null;
-    }
-}
-
-class key{
-}
+import java.util.*;
 
 public class Main{
     public static void main(String[] args){
+        List<Integer> alist = new ArrayList<>();
+        alist.add(1);
+        alist.add(2);
+        alist.add(3);
+        System.out.println(alist);
 
-        key k1 = new key();
-        key k2 = new key();
+        List<Double> blist = new Vector<>();
+        blist.add(4.0);
+        blist.add(5.0);
+        blist.add(6.0);
 
-        keyValue<key, String> kv = new keyValue<>(k1, "hi");
-        System.out.println(kv.getValue(k1));
-        System.out.println(kv.getValue(k2));
+        alist.addAll(blist);
+        System.out.println(alist);
     }
 }
