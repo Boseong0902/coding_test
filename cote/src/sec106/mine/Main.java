@@ -1,4 +1,4 @@
-package sec106;
+package sec106.mine;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package sec105.firstTry;
+package sec105.mine.firstTry;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {

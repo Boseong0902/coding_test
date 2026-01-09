@@ -1,4 +1,4 @@
-package sec104;
+package sec104.mine;
 
 import java.util.*;
 
