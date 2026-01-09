@@ -1,4 +1,4 @@
-package sec101;
+package sec101.mine;
 import java.util.*;
 
 public class Main{
