@@ -8,3 +8,5 @@ public class Main{
         System.out.println(c.length);
     }
 }
+
+//이렇게 수정해도 반영 안되는거지
