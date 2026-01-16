@@ -13,18 +13,24 @@ public class Main{
             if(i == c_list.length-1){
                 if(c_list[i] == prev){
                     cnt++;
-                }
-                System.out.print(c_list[i]);
-                if(cnt != 1){
+                    System.out.print(c_list[i]);
                     System.out.print(cnt);
                 }
+                else{
+                    System.out.print(c_list[i-1]);
+                    if(cnt != 1){
+                        System.out.print(cnt);
+                    }
+                    System.out.print(c_list[i]);
+                }
+
             }
             else if(c_list[i] == prev){
                 cnt++;
             }
             else{
                 System.out.print(prev);
-                if(cnt != 1){
+                if(cnt != 1 && cnt != 0){
                     System.out.print(cnt);
                 }
                 prev = c_list[i];
