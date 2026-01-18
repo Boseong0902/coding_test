@@ -4,8 +4,16 @@ import java.util.*;
 
 public class Main{
     public static void main(String[] args){
-        char[] c = {'a', 'b', 'c'};
-        System.out.println(c.length);
+        String a = "1234";
+        char b[] = a.toCharArray();
+        int c = 0;
+        for(int i = 0; i < b.length; i++){
+            System.out.print(b[i]+" ");
+            int d = Character.getNumericValue(b[i]);
+            c+=(d*10);
+            System.out.println(c);
+        }
+
     }
 }
 
