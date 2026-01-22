@@ -1,4 +1,4 @@
-package sec308.mine;
+package sec402.mine;
 
 import java.util.*;
 public class Main {
