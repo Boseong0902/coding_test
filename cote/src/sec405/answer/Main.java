@@ -1,4 +1,4 @@
-package sec405.mine.sndTry;
+package sec405.answer;
 
 import java.util.*;
 
@@ -49,3 +49,6 @@ public class Main {
         System.out.println("\n"+(endTime - startTime));
     }
 }
+
+// 574247167
+// 내 코드보다 두배 느림

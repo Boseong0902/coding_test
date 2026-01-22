@@ -1,4 +1,4 @@
-package sec405.mine.fstTry;
+package sec405.mine;
 
 // 전략: treeset으로 각 뽑은 카드들의 합 저장
 // 여기서, 합 계산 방법은 3중 for문으로 구현하되, 계산횟수를 줄이기 위해 마지막 loop는 k번까지로 제한
@@ -50,3 +50,6 @@ public class Main{
         System.out.println("\n"+(endTime - startTime));
     }
 }
+
+
+// 293342334
