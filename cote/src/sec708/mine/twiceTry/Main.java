@@ -32,6 +32,7 @@ public class Main{
                     q.offerLast(k+5);
                 }
             }
+            System.out.println(q);
             cnt++;
         }
         return 0;
